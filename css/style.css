@@ -1,9 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 html {
     font-size: 62.5%;
+}
+
+header {
+    font-size: 1.4rem;
+    padding: 6px;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav > .nav-list {
+    justify-content: flex-end;
+}
+
+.nav > .nav-list li {
+    display: inline-block;
+    list-style: none;
+    padding-left: 1.5rem;
+}
+
+.nav > .nav-list li a {
+    text-decoration: none;
+    color: black;
+}
+
+.link-image {
+    width: 2.4rem;
+    height: 2.4rem;
+}
+
+.google_user_icon {
+    border-radius: 50%;
 }
